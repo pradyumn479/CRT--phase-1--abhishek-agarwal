@@ -1,0 +1,104 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    for(int i = 1; i <= 5; i++) {
+        for(int j = 1; j <= 5; j++) {
+            cout << j;
+        }    
+        cout <<"\n";
+    }
+}
+
+
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    for(int i = 1; i <= 5; i++) {
+        for(int j = 1; j <= 5; j++) {
+            cout << "*";
+        }
+        cout <<"\n";
+    }
+}
+
+
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int row, col;
+    cin >> row;
+    cin >> col;
+    
+    for(int i = 1; i <= row; i++) {
+        for(int j = 1; j <= col; j++) {
+            cout << " *";
+        }
+        cout <<"\n";
+    }
+}
+
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int row, col;
+    cin >> row;
+    cin >> col;
+    
+    for(int i = 1; i <= row; i++) {
+        for(int j = 1; j <= col; j++) {
+            cout << " *";
+        }
+        cout <<"\n";
+    }
+}
+ 
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n = 8; 
+    for (int i = 1; i <= n; i++) {
+        for (int j = 1; j <= n; j++) {
+            if (i == 1 || i == n || j == 1 || j == n) {
+                cout << "* ";
+            } else {
+                cout << "  "; 
+            }
+        }
+        cout << endl; 
+    }
+
+}
+
+
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int rows;
+    cout << "Enter number of rows: ";
+    cin >> rows;
+
+    for (int i = rows; i >= 1; i--) 
+}
+        for (int j = 1; j <= i; j++) {
+            cout << "*";
+        }
+        cout << endl;
+    }
+    return 0;
+}
