@@ -1,0 +1,57 @@
+
+using namespace std;
+
+int main() {
+    // Upper triangle 
+    for(int i = 1; i <= 5; i++) {
+        for(int j = 1;  j<= i; j++) {
+            cout << "*";
+        }
+        cout <<"\n";
+    }
+    
+    // Lower triangle
+    for(int i = 5 - 1;  i >= 1; i--) {
+        for(int j = 1; j <= i; j++) {
+            cout <<"*";
+        }
+        cout <<"\n";
+    }
+}
+
+
+
+#include <iostream>
+ using namespace std;
+
+ void printMessage(){
+     cout << "Hi we are learning Functions....";
+ }
+
+ int main() {
+     // function calling 
+     printMessage();
+   return 0; 
+}
+[3:13 pm, 5/5/2026] Pradyumn Sharma: #include <iostream>
+ using namespace std;
+
+ int calculateArea(int length, int width){
+     return length * width;
+ }
+
+ int main() {
+     int a = 12;
+     int b = 10;
+     int area = calculateArea(a, b);
+     cout << area;
+ }
+[3:13 pm, 5/5/2026] Pradyumn Sharma: #include <iostream>
+ using namespace std;
+ void bellRing(){
+     cout << "Ting Tong...";
+ }
+
+ int main() {
+     bellRing();
+ }
